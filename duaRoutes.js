@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const db = require('../database');
+const db = require('./database');
 
 // Fetch duas by category ID or subcategory ID
 router.get('/', (req, res) => {
